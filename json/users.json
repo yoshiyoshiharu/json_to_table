@@ -1,184 +1,15 @@
 [
   {
-    "id": "624943550a5af793ef47a9e2",
-    "index": 0,
-    "isActive": false,
-    "age": 38,
-    "name": "Laurel Lara",
-    "gender": "female",
-    "company": "DOGSPA",
-    "email": "laurellara@dogspa.com",
-    "about": "Commodo sint est ipsum consequat fugiat do id amet commodo. Minim consectetur fugiat qui proident. Non enim pariatur sunt exercitation id culpa veniam minim.\r\n",
-    "tags": [
-      "laboris",
-      "consectetur",
-      "consequat",
-      "minim",
-      "sit",
-      "incididunt",
-      "exercitation"
-    ],
-    "friends": [
-      {
-        "id": 0,
-        "name": "Dorothy Castro"
-      },
-      {
-        "id": 1,
-        "name": "Valeria Mcdaniel"
-      },
-      {
-        "id": 2,
-        "name": "Nell Rowland"
-      }
-    ]
-  },
-  {
-    "id": "62494355823852d223b728ab",
-    "index": 1,
-    "isActive": false,
-    "age": 25,
-    "name": "Farmer Bridges",
-    "gender": "male",
-    "company": "COASH",
-    "email": "farmerbridges@coash.com",
-    "about": "Aute esse consequat qui id do. Est aliqua non incididunt quis ea quis Lorem deserunt velit occaecat ullamco magna. Enim esse commodo tempor magna deserunt dolor consectetur ipsum eiusmod laborum aliquip in eiusmod. Labore commodo aute culpa eu anim elit nulla laborum quis non fugiat reprehenderit. Sunt sint labore sit est magna qui. Cillum minim sit cupidatat laboris Lorem cupidatat in. Incididunt eu reprehenderit consectetur fugiat fugiat eiusmod mollit aliquip dolor amet excepteur.\r\n",
-    "tags": [
-      "eiusmod",
-      "pariatur",
-      "dolor",
-      "sunt",
-      "eiusmod",
-      "excepteur",
-      "culpa"
-    ],
-    "friends": [
-      {
-        "id": 0,
-        "name": "Witt Keith"
-      },
-      {
-        "id": 1,
-        "name": "Raymond Robles"
-      },
-      {
-        "id": 2,
-        "name": "Harris Weeks"
-      }
-    ]
-  },
-  {
-    "id": "62494355a5b08c356f595eb6",
-    "index": 2,
-    "isActive": true,
-    "age": 33,
-    "name": "Loretta Frye",
-    "gender": "female",
-    "company": "DECRATEX",
-    "email": "lorettafrye@decratex.com",
-    "about": "Laborum nostrud aute pariatur laborum. Consequat aliqua aliqua commodo laboris. Incididunt consectetur consectetur minim incididunt nostrud. Consequat sit irure aliquip incididunt duis sunt nostrud. Occaecat cillum veniam Lorem occaecat sit excepteur esse culpa commodo quis anim velit.\r\n",
-    "tags": [
-      "elit",
-      "velit",
-      "commodo",
-      "magna",
-      "do",
-      "amet",
-      "adipisicing"
-    ],
-    "friends": [
-      {
-        "id": 0,
-        "name": "Elizabeth Fernandez"
-      },
-      {
-        "id": 1,
-        "name": "Patrick Reynolds"
-      },
-      {
-        "id": 2,
-        "name": "Raquel Franco"
-      }
-    ]
-  },
-  {
-    "id": "62494355a5516789a14a7542",
-    "index": 3,
+    "id": 1,
     "isActive": false,
     "age": 36,
     "name": "Williams Greer",
     "gender": "male",
     "company": "MYOPIUM",
     "email": "williamsgreer@myopium.com",
-    "about": "Esse esse consectetur ipsum Lorem cupidatat. Anim nisi qui duis magna Lorem minim amet voluptate ea. Lorem aute duis elit laborum veniam pariatur consequat.\r\n",
-    "tags": [
-      "nostrud",
-      "velit",
-      "aute",
-      "anim",
-      "fugiat",
-      "excepteur",
-      "elit"
-    ],
     "friends": [
-      {
-        "id": 0,
-        "name": "Stevenson Elliott"
-      },
-      {
-        "id": 1,
-        "name": "Ferguson Love"
-      },
-      {
-        "id": 2,
-        "name": "Rena Mann"
-      }
-    ]
-  },
-  {
-    "id": "624943558bc8253d27fd651d",
-    "index": 4,
-    "isActive": true,
-    "age": 34,
-    "name": "Gentry Blankenship",
-    "gender": "male",
-    "company": "VINCH",
-    "email": "gentryblankenship@vinch.com",
-    "about": "Aliquip aliquip duis qui ut sunt exercitation consectetur ullamco ex aute mollit consequat. Qui aliquip aliquip magna dolor laboris Lorem veniam. Incididunt nulla mollit ullamco dolor Lorem esse reprehenderit. Consequat eiusmod tempor occaecat magna proident laborum. Ut Lorem exercitation qui Lorem elit nostrud eu reprehenderit eiusmod id. Aute amet excepteur adipisicing officia ea. Consectetur velit enim voluptate ipsum occaecat cillum dolor ipsum irure.\r\n",
-    "tags": [
-      "aute",
-      "mollit",
-      "aliquip",
-      "sit",
-      "aliquip",
-      "dolor",
-      "amet"
-    ],
-    "friends": [
-      {
-        "id": 0,
-        "name": "Foster Freeman"
-      },
-      {
-        "id": 1,
-        "name": "Catherine Woods"
-      },
-      {
-        "id": 2,
-        "name": "Billie Lowery"
-      }
-    ]
-  },
-  {
-    "id": "62494355dc7b9d871c42c634",
-    "index": 5,
-    "isActive": true,
-    "age": 37,
-    "name": "Deana Mercado",
-    "gender": "female",
-    "company": "BLUPLANET",
-    "email": "deanamercado@bluplanet.com",
-    "about": "Aliquip consequat adipisicing reprehenderit aliquip voluptate nostrud anim magna esse anim elit duis elit. Dolore cillum voluptate ipsum non voluptate minim mollit consectetur occaecat ipsum dolor. Sit eu elit laboris officia quis. Voluptate ut aute labore quis duis. Amet labore anim est ea anim non. Eiusmod ad ex cillum elit sunt cillum non aliquip sit nulla ut velit. Ea commodo adipisicing ipsum labore esse incididunt enim in officia consequat occaecat.\r\n",
+      1, 2, 3
+    ], 
     "tags": [
       "veniam",
       "quis",
@@ -187,20 +18,24 @@
       "ipsum",
       "elit",
       "commodo"
-    ],
-    "friends": [
-      {
-        "id": 0,
-        "name": "Lenora Watson"
-      },
-      {
-        "id": 1,
-        "name": "Margery Wong"
-      },
-      {
-        "id": 2,
-        "name": "Mays Sims"
-      }
     ]
+  },
+  {
+    "id": 2,
+    "isActive": true,
+    "age": 34,
+    "name": "Gentry Blankenship",
+    "gender": "male",
+    "company": "VINCH",
+    "email": "gentryblankenship@vinch.com"
+  },
+  {
+    "id": 3,
+    "isActive": true,
+    "age": 37,
+    "name": "Deana Mercado",
+    "gender": "female",
+    "company": "BLUPLANET",
+    "email": "deanamercado@bluplanet.com"
   }
 ]
