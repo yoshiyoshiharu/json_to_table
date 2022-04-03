@@ -7,9 +7,6 @@
     "gender": "male",
     "company": "MYOPIUM",
     "email": "williamsgreer@myopium.com",
-    "friends": [
-      1, 2, 3
-    ], 
     "tags": [
       "veniam",
       "quis",
@@ -18,6 +15,20 @@
       "ipsum",
       "elit",
       "commodo"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Hester Chambers"
+      },
+      {
+        "id": 1,
+        "name": "Hill Solomon"
+      },
+      {
+        "id": 2,
+        "name": "Molina Odom"
+      }
     ]
   },
   {
@@ -27,7 +38,30 @@
     "name": "Gentry Blankenship",
     "gender": "male",
     "company": "VINCH",
-    "email": "gentryblankenship@vinch.com"
+    "email": "gentryblankenship@vinch.com",
+    "tags": [
+      "excepteur",
+      "excepteur",
+      "tempor",
+      "excepteur",
+      "veniam",
+      "reprehenderit",
+      "veniam"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Santana Madden"
+      },
+      {
+        "id": 1,
+        "name": "Chaney Britt"
+      },
+      {
+        "id": 2,
+        "name": "Burgess Mueller"
+      }
+    ]
   },
   {
     "id": 3,
@@ -36,6 +70,29 @@
     "name": "Deana Mercado",
     "gender": "female",
     "company": "BLUPLANET",
-    "email": "deanamercado@bluplanet.com"
+    "email": "deanamercado@bluplanet.com",
+    "tags": [
+      "do",
+      "ut",
+      "pariatur",
+      "do",
+      "ex",
+      "voluptate",
+      "ullamco"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Natalie Terrell"
+      },
+      {
+        "id": 1,
+        "name": "Sandy Frye"
+      },
+      {
+        "id": 2,
+        "name": "Jenny Trujillo"
+      }
+    ]
   }
 ]
