@@ -1,7 +1,7 @@
 require 'json'
 require 'table'
 
-class JsonToTableShower
+class JsonToTableDisplayer
   def initialize(json)
     @json = JSON.parse(json)
   end
