@@ -37,7 +37,8 @@ Gem::Specification.new do |spec|
   
   spec.add_dependency "thor"
   spec.add_dependency "terminal-table"
-
+  spec.add_dependency "tty-prompt"
+  
   spec.add_development_dependency "bundler", "~> 1.17"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "minitest", "~> 5.0"
