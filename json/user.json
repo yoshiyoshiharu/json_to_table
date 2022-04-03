@@ -1,0 +1,45 @@
+{
+  "_id": "62492d6376733342803e9e13",
+  "index": 0,
+  "guid": "e4ec8694-e7e6-464f-9878-c31f41018f22",
+  "isActive": false,
+  "balance": "$1,553.71",
+  "picture": "http://placehold.it/32x32",
+  "age": 21,
+  "eyeColor": "brown",
+  "name": "Phillips Beck",
+  "gender": "male",
+  "company": "QIAO",
+  "email": "phillipsbeck@qiao.com",
+  "phone": "+1 (882) 413-2568",
+  "address": "406 Lake Place, Cleary, Washington, 9031",
+  "about": "Aliqua esse eiusmod ad laborum voluptate officia laboris commodo dolor pariatur nisi non consequat minim. Consequat do ipsum labore consectetur dolor nostrud veniam fugiat labore ut. Cillum eu fugiat proident eiusmod Lorem nisi tempor veniam ullamco officia fugiat velit Lorem aute. Commodo esse dolore laboris aliqua exercitation cupidatat nulla Lorem id esse consequat. Labore fugiat laborum qui consectetur adipisicing mollit enim eiusmod do consectetur mollit laboris Lorem ullamco.\r\n",
+  "registered": "2021-08-14T12:11:38 -09:00",
+  "latitude": 34.227663,
+  "longitude": -152.332723,
+  "tags": [
+    "nostrud",
+    "adipisicing",
+    "qui",
+    "sint",
+    "amet",
+    "ipsum",
+    "id"
+  ],
+  "friends": [
+    {
+      "id": 0,
+      "name": "Britt Palmer"
+    },
+    {
+      "id": 1,
+      "name": "Carla Higgins"
+    },
+    {
+      "id": 2,
+      "name": "Gloria Carroll"
+    }
+  ],
+  "greeting": "Hello, Phillips Beck! You have 4 unread messages.",
+  "favoriteFruit": "banana"
+}
