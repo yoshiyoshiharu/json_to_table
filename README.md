@@ -1,4 +1,4 @@
-# [WIP]JsonToTable
+# [WIP] json_to_table
 
 display JSON as TABLE
 
