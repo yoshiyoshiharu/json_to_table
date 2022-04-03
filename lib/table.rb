@@ -2,8 +2,13 @@ require 'terminal-table'
 
 module JsonToTable
   class Table
-    def initialize(hashes)
-      @hashes = hashes
+    def initialize(json)
+      if json.is_a? Hash
+        @hashes = [json]
+      else
+        @hashes = json
+      end
+      
       @headings = headings
       @rows = rows
     end
