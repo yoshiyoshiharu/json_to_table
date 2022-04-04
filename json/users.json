@@ -7,15 +7,6 @@
     "gender": "male",
     "company": "MYOPIUM",
     "email": "williamsgreer@myopium.com",
-    "tags": [
-      "veniam",
-      "quis",
-      "elit",
-      "commodo",
-      "ipsum",
-      "elit",
-      "commodo"
-    ],
     "friends": [
       {
         "id": 0,
@@ -71,15 +62,6 @@
     "gender": "female",
     "company": "BLUPLANET",
     "email": "deanamercado@bluplanet.com",
-    "tags": [
-      "do",
-      "ut",
-      "pariatur",
-      "do",
-      "ex",
-      "voluptate",
-      "ullamco"
-    ],
     "friends": [
       {
         "id": 0,
