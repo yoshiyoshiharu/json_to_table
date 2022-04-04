@@ -7,8 +7,12 @@ class JsonToTableDisplayer
   end
 
   def run
-    table = JsonToTable::Table.new(@json).terminal_table
+    table = JsonToTable::Table.new(@json)
 
-    puts table
+    puts table.terminal_table
+
+    table.child_hashes.each do |child_hash|
+      puts JsonToTable::Table.new(child_hash).terminal_table
+    end
   end
 end

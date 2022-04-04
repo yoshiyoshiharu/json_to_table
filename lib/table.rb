@@ -2,14 +2,17 @@ require 'terminal-table'
 
 module JsonToTable
   class Table
-    def initialize(json)
+    attr_reader :child_hashes
+
+    def initialize(json, parent_table = nil)
       if json.is_a? Hash
         @hashes = [json]
       else
         @hashes = json
       end
-      
+
       @headings = headings
+      @child_hashes = [] # ここは初期化の順番に依存している
       @rows = rows
     end
   
@@ -34,8 +37,9 @@ module JsonToTable
         row = []
   
         @headings.each do |key|
-          if hash[key].is_a? Array || Hash
-            row << '...'
+          if (hash[key].is_a? Hash) || (hash[key].is_a? Array)
+            row << "... (#{rows.count + 1})"
+            @child_hashes << hash[key]
           else
             row << hash[key]
           end
