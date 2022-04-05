@@ -9,12 +9,15 @@ class JsonToTableDisplayer
   def run
     table = JsonToTable::Table.new(@json)
 
-    puts "#{table.terminal_table}\n\n"
+    puts "#{table.terminal_table}"
 
     table.child_hashes.each do |child_hash|
       key = child_hash.keys.first
-      puts key
-      puts "#{JsonToTable::Table.new(child_hash[key]).terminal_table}\n\n"
+      puts "\n#{key}"
+
+      child_table = JsonToTable::Table.new(child_hash[key])
+      puts child_table.terminal_table
+      table.child_hashes.concat child_table.child_hashes
     end
   end
 end
