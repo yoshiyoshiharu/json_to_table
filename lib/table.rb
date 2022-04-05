@@ -11,8 +11,8 @@ module JsonToTable
         @hashes = json
       end
 
-      @headings = headings
       @child_hashes = []
+      @headings = headings
       @rows = rows
     end
   
