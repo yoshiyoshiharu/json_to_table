@@ -39,7 +39,7 @@ module JsonToTable
         @headings.each do |key|
           if (hash[key].is_a? Hash) || (hash[key].is_a? Array)
             row << "... (#{rows.count + 1})"
-            @child_hashes << hash[key]
+            @child_hashes << { "#{key} (#{rows.count + 1})" => hash[key] }
           else
             row << hash[key]
           end
