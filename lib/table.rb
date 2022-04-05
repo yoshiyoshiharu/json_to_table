@@ -12,7 +12,7 @@ module JsonToTable
       end
 
       @headings = headings
-      @child_hashes = [] # ここは初期化の順番に依存している
+      @child_hashes = []
       @rows = rows
     end
   
