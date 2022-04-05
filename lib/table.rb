@@ -15,6 +15,10 @@ module JsonToTable
       @headings = headings
       @rows = rows
     end
+
+    def print_terminal_table
+      puts terminal_table
+    end
   
     def terminal_table
       Terminal::Table.new headings: @headings, rows: @rows
