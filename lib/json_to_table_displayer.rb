@@ -8,9 +8,13 @@ class JsonToTableDisplayer
   end
 
   def run
-    @table.print_terminal_table
+    print_terminal_table
 
     print_terminal_child_tables
+  end
+
+  def print_terminal_table
+    puts @table.terminal_table
   end
 
   def print_terminal_child_tables
@@ -19,7 +23,7 @@ class JsonToTableDisplayer
       puts "\n#{key}"
 
       child_table = JsonToTable::Table.new(child_hash[key])
-      child_table.print_terminal_table
+      puts child_table.terminal_table
       @table.child_hashes.concat child_table.child_hashes
     end
   end
