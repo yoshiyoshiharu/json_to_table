@@ -19,6 +19,8 @@ module JsonToTable
     def terminal_table
       Terminal::Table.new headings: @headings, rows: @rows
     end
+
+    private
   
     def headings
       headings = []
