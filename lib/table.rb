@@ -4,11 +4,11 @@ module JsonToTable
   class Table
     attr_reader :child_hashes
 
-    def initialize(json, parent_table = nil)
-      if json.is_a? Hash
-        @hashes = [json]
+    def initialize(object, parent_table = nil)
+      if object.is_a? Hash
+        @hashes = [object]
       else
-        @hashes = json
+        @hashes = object
       end
 
       @child_hashes = []

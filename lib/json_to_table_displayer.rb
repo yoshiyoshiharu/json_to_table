@@ -3,8 +3,8 @@ require 'table'
 
 class JsonToTableDisplayer
   def initialize(json)
-    @json = JSON.parse(json)
-    @table = JsonToTable::Table.new(@json)
+    @object = JSON.parse(json)
+    @table = JsonToTable::Table.new(@object)
   end
 
   def run
