@@ -4,13 +4,17 @@ display JSON as TABLE
 
 ## Installation
 
+Write in Gemfile or gemspec file
+
 ```ruby
 gem 'json_to_table'
 ```
 
-And then execute:
+then install gems
 
-    $ bundle
+```ruby
+$ bundle install
+```
 
 Or install it yourself as:
 
